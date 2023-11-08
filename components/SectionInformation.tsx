@@ -21,7 +21,7 @@ const SectionInformation = (props:any) => {
                         <div className="group hover:bg-indigo-600 rounded-3xl xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-2 hover:border-2">
                             <h2 className="group-hover:text-indigo-300 text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">{sectie.name}</h2>
                             <p className= "group-hover:text-white leading-relaxed text-base mb-4">{sectie.text}</p>
-                            <a href={sectie.href} className="group-hover:text-indigo-300 text-indigo-600 inline-flex items-center">Leer meer
+                            <a href={sectie.href} className="group-hover:text-indigo-300 text-indigo-600 inline-flex items-center">Lees meer
                                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                                 </svg>
