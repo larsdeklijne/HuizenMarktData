@@ -1,11 +1,19 @@
-"use client";
-
 import React from 'react'
 
-const hero = (props:any) => {
+type PageIntroProps = {
+    title: string,
+    description: string
+    button1: string,
+    button2: string,
+    href1: string,
+    href2: string
+}
+
+const PageIntro = ( { title, description, button1, button2, href1, href2 } : PageIntroProps) => {
   return (
-    <div className="bg-white">
-    <div className="relative isolate px-6 pt-14 lg:px-8">
+  <div>
+    <div className="bg-white h-40%">
+    <div className="relative isolate px-6 pt-5 lg:px-8">
       <div
         className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
         aria-hidden="true"
@@ -18,32 +26,26 @@ const hero = (props:any) => {
           }}
         />
       </div>
-      <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div className="mx-auto max-w-2xl py-25 sm:py-40 lg:py-50">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-          <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-            Bereken wat jij kan lenen.{' '}
-            <a href="#" className="font-semibold text-indigo-600">
-              <span className="absolute inset-0" aria-hidden="true" />
-              Lees meer <span aria-hidden="true">&rarr;</span>
-            </a>
-          </div>
+       
         </div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Huizen Markt Data maakt je zoektocht naar een huis makkelijker
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            {title}
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-          Op zoek naar inzicht in de Nederlandse huizenmarkt? Je bent op de juiste plek!
+          {description}
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
-              href="#"
+              href={href1}
               className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              Huis kopen
+              {button1}
             </a>
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-              Huis huren <span aria-hidden="true">→</span>
+            <a href={href2} className="text-sm font-semibold leading-6 text-gray-900">
+              {button2} <span aria-hidden="true">→</span>
             </a>
           </div>
         </div>
@@ -62,7 +64,9 @@ const hero = (props:any) => {
       </div>
     </div>
   </div>
+  <h1>API calls naar alle banken</h1>
+    </div>
   )
 }
 
-export default hero
+export default PageIntro;
