@@ -64,7 +64,6 @@ const PageIntro = ( { title, description, button1, button2, href1, href2 } : Pag
       </div>
     </div>
   </div>
-  <h1>API calls naar alle banken</h1>
     </div>
   )
 }
