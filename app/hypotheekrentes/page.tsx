@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const page = () => {
 
-  const makeApiCall = async () => {
+  const hypotheekrentesApi = async () => {
     console.log('geklikt bitch')
     await fetch('http://localhost:3000/api/hypotheekrentes')
   }
@@ -20,7 +20,7 @@ const page = () => {
 
         {/* <CustomTable></CustomTable> */}
 
-       <Button onClick={makeApiCall} variant="outline">API call</Button>
+       <Button onClick={hypotheekrentesApi} variant="outline">API call</Button>
 
 
     </div>
