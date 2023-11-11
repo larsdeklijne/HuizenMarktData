@@ -1,18 +1,14 @@
 "use client";
 
-import CardGrid from "@/components/CardGrid"
-import Navbar from "@/components/Navbar"
 import PageIntro from "@/components/PageIntro"
 import CustomTable from "@/components/CustomTable"
+import { Button } from "@/components/ui/button";
 
 const page = () => {
 
-  const makeApiCall =async () => {
+  const makeApiCall = async () => {
     console.log('geklikt bitch')
-    await fetch('/api/hypotheekrentes', {
-      method: 'POST',
-      body: JSON.stringify({ hello: 'world'}),
-    })
+    await fetch('http://localhost:3000/api/hypotheekrentes')
   }
 
   return (
@@ -22,10 +18,9 @@ const page = () => {
       description="Op zoek naar de beste hypotheekrente? Wij hebben speciale deze pagina gewijd aan hypotheekrentes, waar je de nieuwste tarieven kunt vergelijken."></PageIntro>
 
 
-        <CustomTable></CustomTable>
+        {/* <CustomTable></CustomTable> */}
 
-        <br></br>
-        <button onClick={makeApiCall}>make test api call</button>
+       <Button onClick={makeApiCall} variant="outline">API call</Button>
 
 
     </div>
