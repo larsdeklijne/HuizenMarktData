@@ -16,6 +16,7 @@ async function getData() {
 const page = async () => {
 
   const data = await getData()
+  const renteData = data.dataArray
 
   console.log("client side data:")
   console.log(data.dataArray)
@@ -25,7 +26,7 @@ const page = async () => {
       <PageIntro containerDiv="bg-white h-40%" title="Hypotheekrentes" button1="Huis kopen" button2="Huis huren" 
       href1="/kopen" href2="/huren"
       description="Op zoek naar de beste hypotheekrente? Wij hebben speciale deze pagina gewijd aan hypotheekrentes, waar je de nieuwste tarieven kunt vergelijken."></PageIntro>
-      <CustomTable></CustomTable>
+      <CustomTable renteData={renteData}></CustomTable>
 
     </div>
   )

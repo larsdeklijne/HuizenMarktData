@@ -11,11 +11,10 @@ import {
 } from "@/components/ui/table"
 
 export interface renteData {
-  name: string,
-  rente: number
+  renteData: number
 }
 
-const CustomTable = ( ) => {
+const CustomTable = ( { renteData } : renteData) => {
 
   return (
     <div className="flex h-50%">
@@ -32,14 +31,14 @@ const CustomTable = ( ) => {
           <TableBody>
               
 
-              {/* {renteData.map((rente) => (
+              {renteData.map((rente : number) => (
                 <TableRow>
-                <TableCell className="font-medium">INV001</TableCell>
+                <TableCell className="font-medium">Dehypotheker</TableCell>
                 <TableCell>{rente}</TableCell>
-                <TableCell>Credit Card</TableCell>
+                <TableCell>Hypotheekrente</TableCell>
                 <TableCell className="text-right">$250.00</TableCell>
                 </TableRow>
-              ))} */}
+              ))}
           </TableBody>
       </Table>
     </div>
