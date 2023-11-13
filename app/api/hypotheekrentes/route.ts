@@ -11,17 +11,18 @@ import { Browser } from 'puppeteer'
 puppeteer.use(StealthPlugin())
 
 export async function GET(req: Request){
-    const responseFunctie = getRentestanden()
-    console.log("server side", responseFunctie)
+    const responseFunctie = await getRentestanden()
 
 //    const response = getRentestanden()
 //    console.log("SERVER SIDE LOG", response)
 
     const response = "GET RETURN /API/HYPOTHEEKRENTES"
-   return NextResponse.json({"response": responseFunctie})
+    return NextResponse.json({"dataArray" : responseFunctie})
 }
 
 async function getRentestanden(){
+    console.log("getrenteStanden functie betreden")
+
     const url = 'https://www.hypotheker.nl/rentestanden/'
     const browser: Browser = await puppeteer.launch({ 
         headless:false,
@@ -46,8 +47,6 @@ async function getRentestanden(){
     // loop through html object and save correct values in new array
     renteArray.forEach( async (rente) => {
         const renteWaarde = await (await rente.getProperty('textContent')).jsonValue()
-
-        console.log("SERVERSIDE -> rentewaarde:", renteWaarde)
 
         renteTextValues.push(renteWaarde)
     })

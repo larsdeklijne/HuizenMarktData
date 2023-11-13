@@ -16,7 +16,9 @@ async function getData() {
 const page = async () => {
 
   const data = await getData()
-  console.log("client side log:", data)
+
+  console.log("client side data:")
+  console.log(data.dataArray)
 
   return (
     <div>

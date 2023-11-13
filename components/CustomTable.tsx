@@ -9,9 +9,14 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table"
-  
 
-const CustomTable = () => {
+export interface renteData {
+  name: string,
+  rente: number
+}
+
+const CustomTable = ( ) => {
+
   return (
     <div className="flex h-50%">
       <Table className="m-auto lg:w-1/2 sm:w-3/4">
@@ -25,12 +30,16 @@ const CustomTable = () => {
               </TableRow>
           </TableHeader>
           <TableBody>
-              <TableRow>
-              <TableCell className="font-medium">INV001</TableCell>
-              <TableCell>Paid</TableCell>
-              <TableCell>Credit Card</TableCell>
-              <TableCell className="text-right">$250.00</TableCell>
-              </TableRow>
+              
+
+              {/* {renteData.map((rente) => (
+                <TableRow>
+                <TableCell className="font-medium">INV001</TableCell>
+                <TableCell>{rente}</TableCell>
+                <TableCell>Credit Card</TableCell>
+                <TableCell className="text-right">$250.00</TableCell>
+                </TableRow>
+              ))} */}
           </TableBody>
       </Table>
     </div>

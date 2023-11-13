@@ -194,9 +194,466 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-T78CX5');</script>
 <!-- End Google Tag Manager -->
-<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.hypotheker.nl/"},{"@type":"ListItem","position":2,"name":"rentestanden","item":"https://www.hypotheker.nl/rentestanden/"}]}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","url":"https://www.hypotheker.nl/","brand":"De Hypotheker","logo":"https://www.hypotheker.nl/assets/svg/logo.svg","contactPoint":[{"@type":"ContactPoint","telephone":"+3108001480","email":"info@hypotheker.nl","availableLanguage":"NL","contactType":"customer service"}]}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://www.hypotheker.nl/","name":"De Hypotheker","potentialAction":{"@type":"SearchAction","target":"https://www.hypotheker.nl/zoekresultaten//?q={search_term_string}","query-input":"required name=search_term_string"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hoe filter je de hypotheekrentes?","acceptedAnswer":{"@type":"Answer","text":"De filters boven het bovenstaande overzicht helpen je om uit te komen bij de rente voor jouw hypotheek. Kies eerst het type hypotheek waarvan je de huidige hypotheekrente wilt weten, bijvoorbeeld annuïteiten, lineair of aflossingsvrij. Daarna filter je op de rentevaste periode. Je selecteert dan of je de hypotheekrente 30 jaar vast, 20 jaar vast of misschien wel 10 jaar vast wilt zetten. Tot slot selecteer je het rentetarief en het type bouw. Zo kun je van de verschillende geldverstrekkers de hypotheekrente vergelijken."}},{"@type":"Question","name":"Wat is een rentevaste periode?","acceptedAnswer":{"@type":"Answer","text":"Het rentepercentage voor jouw hypotheek kun je voor verschillende rentevaste perioden vastzetten. Dit kan variëren van een maand tot 30 jaar. Bij een korte looptijd betaal je meestal een lagere rente voor de hypotheek en bij een langere looptijd betaal je een hogere rente. Bij een langere looptijd heb je meer zekerheid voor je maandelijkse lasten.\n\nLees meer"}},{"@type":"Question","name":"Wat is hypotheekrenteaftrek?","acceptedAnswer":{"@type":"Answer","text":"Hypotheekrenteaftrek betekent dat je betaalde hypotheekrente in mindering brengt op je bruto inkomen, waardoor je uiteindelijk minder inkomstenbelasting betaalt. De rente die je betaalt voor je hypotheek is onder bepaalde voorwaarden maximaal 30 jaar fiscaal aftrekbaar.\n\nMeer over hypotheekrenteaftrek"}},{"@type":"Question","name":"Wat is rentemiddeling?","acceptedAnswer":{"@type":"Answer","text":"Bij rentemiddeling breek je je huidige rentevaste periode open. Je krijgt vervolgens een nieuwe rentevaste periode waarbij je hypotheekrente een gemiddelde is van je huidige rente en de actuele rente.\n\nMeer over rentemiddeling"}}]}</script><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9"><link type="text/css" href="https://hyp01.hypotheker.nl/gallery/toolbar_gdpr_components/1.2.3/frontend/src/css/gdpr.css" rel="stylesheet"><script src="https://hyp01.hypotheker.nl/templates/324684762f63bff6c12c0e1192e81945" async=""></script></head>
+<script type="application/ld+json">{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.hypotheker.nl/"},{"@type":"ListItem","position":2,"name":"rentestanden","item":"https://www.hypotheker.nl/rentestanden/"}]}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","url":"https://www.hypotheker.nl/","brand":"De Hypotheker","logo":"https://www.hypotheker.nl/assets/svg/logo.svg","contactPoint":[{"@type":"ContactPoint","telephone":"+3108001480","email":"info@hypotheker.nl","availableLanguage":"NL","contactType":"customer service"}]}</script><script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","url":"https://www.hypotheker.nl/","name":"De Hypotheker","potentialAction":{"@type":"SearchAction","target":"https://www.hypotheker.nl/zoekresultaten//?q={search_term_string}","query-input":"required name=search_term_string"}}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Hoe filter je de hypotheekrentes?","acceptedAnswer":{"@type":"Answer","text":"De filters boven het bovenstaande overzicht helpen je om uit te komen bij de rente voor jouw hypotheek. Kies eerst het type hypotheek waarvan je de huidige hypotheekrente wilt weten, bijvoorbeeld annuïteiten, lineair of aflossingsvrij. Daarna filter je op de rentevaste periode. Je selecteert dan of je de hypotheekrente 30 jaar vast, 20 jaar vast of misschien wel 10 jaar vast wilt zetten. Tot slot selecteer je het rentetarief en het type bouw. Zo kun je van de verschillende geldverstrekkers de hypotheekrente vergelijken."}},{"@type":"Question","name":"Wat is een rentevaste periode?","acceptedAnswer":{"@type":"Answer","text":"Het rentepercentage voor jouw hypotheek kun je voor verschillende rentevaste perioden vastzetten. Dit kan variëren van een maand tot 30 jaar. Bij een korte looptijd betaal je meestal een lagere rente voor de hypotheek en bij een langere looptijd betaal je een hogere rente. Bij een langere looptijd heb je meer zekerheid voor je maandelijkse lasten.\n\nLees meer"}},{"@type":"Question","name":"Wat is hypotheekrenteaftrek?","acceptedAnswer":{"@type":"Answer","text":"Hypotheekrenteaftrek betekent dat je betaalde hypotheekrente in mindering brengt op je bruto inkomen, waardoor je uiteindelijk minder inkomstenbelasting betaalt. De rente die je betaalt voor je hypotheek is onder bepaalde voorwaarden maximaal 30 jaar fiscaal aftrekbaar.\n\nMeer over hypotheekrenteaftrek"}},{"@type":"Question","name":"Wat is rentemiddeling?","acceptedAnswer":{"@type":"Answer","text":"Bij rentemiddeling breek je je huidige rentevaste periode open. Je krijgt vervolgens een nieuwe rentevaste periode waarbij je hypotheekrente een gemiddelde is van je huidige rente en de actuele rente.\n\nMeer over rentemiddeling"}}]}</script><link type="text/css" href="https://hyp01.hypotheker.nl/gallery/toolbar_gdpr_components/1.2.3/frontend/src/css/gdpr.css" rel="stylesheet"><link type="text/css" rel="stylesheet" href="https://hyp01.hypotheker.nl/gallery/dialogue_notification_bar/1.4.1/frontend/src/css/notificationBar.css"><style>/*body {*/
+/*  top:0 !important;*/
+/*}*/
 
-<body class="has--disabled-intro-sequence" data-theme="LightGreen">
+.bcpNotificationBar {
+    width: 100vw;
+    z-index: 15000;
+    margin: 0 auto;
+    background-color: rgba(0,0,0,0.7);
+    color: #444;
+    height: 100vh;
+    overflow: auto;
+    position: fixed !important ;
+    top: 0 !important;
+    left: 0 !important;
+}
+
+.bcpNotificationBarContent {
+    box-sizing: border-box;
+    display: block;
+    max-width: 750px;
+    height: auto;
+    padding: 7px 30px;
+    margin: 0 auto;
+    top: 115px;
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+.bcpGDPRLightbox{
+  background-color: #ffffff;
+  line-height:1;
+  overflow-wrap: break-word;
+  /* only supported by a few browsers */
+  overflow-wrap: hyphenate-word;
+  text-align: left;
+}
+
+.bcpGDPRLightbox .bcpGDPRHeader {
+  padding: 30px 30px 0 30px;
+}
+
+.bcpGDPRLightbox .bcpGDPRHeaderLogo {
+  width: 150px;
+}
+
+.bcpGDPRLightbox .bcpGDPRContent {
+  padding: 30px;
+}
+
+.bcpGDPRLightbox .bcpGDPRContent .bcpGDPRTitle {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.bcpGDPRLightbox .bcpGDPRContent .bcpGDPRDescription {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.bcGDPR .bcpObjectiveTemplate {
+  padding: 0;
+}
+
+.bcGDPR .bcpObjectiveTemplate .bcpObjective {
+  display: inline-block;
+  width: 32%;
+  margin-right: 1%;
+  vertical-align: top;
+}
+
+.bcGDPR .bcpObjectiveTemplate .bcpObjective:hover {
+  background-color: transparent;
+}
+
+.bcGDPR .bcpObjectiveTemplate input[type="radio"] {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin: 0;
+  position: absolute;
+  opacity: 0;
+}
+
+.bcGDPR .bcpObjectiveTemplate label {
+  position: relative!important;
+  display: block!important;
+  width: 100%!important;
+  font-size: 20px!important;
+  font-weight: 400!important;
+  color: #092968!important;
+  padding: 15px 15px 15px 40px!important;
+  border: 1px solid #DEE1E3!important;
+}
+
+.bcGDPR .bcpObjectiveTemplate label:before {
+  content: ""!important;
+  position: absolute!important;
+  left: 10px!important;
+  top: 15px!important;
+  display: inline-block!important;
+  width: 20px!important;
+  height: 20px!important;
+  border: 1px solid #BBC1C5!important;
+  border-radius: 100%!important;
+  background-color: transparent!important;
+  box-shadow: none!important;
+}
+
+.bcGDPR .bcpObjectiveTemplate input[type="radio"]:checked + label {
+  background-color: #F9F9F9!important;
+}
+.bcGDPR .bcpObjectiveTemplate input[type="radio"]:checked + label:before {
+  border: 2px solid #65aec7!important;
+}
+
+.bcGDPR .bcpObjectiveTemplate input[type="radio"]:checked + label::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 17px;
+  top: 20px;
+  width: 6px;
+  height: 9px;
+  border: solid #65aec7;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.bcpGDPRList {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0 0!important;
+}
+
+.bcpGDPRList li {
+  position: relative;
+  padding: 0 0 0 0;
+  font-size: 17px;
+  color: #717D84;
+  font-weight: 400;
+  margin: 0 0 15px 0!important;
+}
+
+.bcpGDPRList li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -24px;
+  top: 0;
+  width: 10px;
+  height: 16px;
+  border: solid #1a906d;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+.bcpGDPRList li:after {
+  display: none;
+}
+
+.bcpGDPRList li.bcpGDPRList__cross:before,
+.bcpGDPRList li.bcpGDPRList__cross:after {
+  display: inline-block;
+  position: absolute;
+  top: 2px;
+  left: -20px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #717D84;
+  border: none;
+}
+.bcpGDPRList li.bcpGDPRList__cross:before { transform: rotate(45deg); }
+.bcpGDPRList li.bcpGDPRList__cross:after { transform: rotate(-45deg); }
+
+.bcGDPR .bcpObjectiveTemplate .bcpOkButton {
+  padding: 13px 25px;
+  border-radius: 25px/25px;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #ff5e3a!important;
+  box-shadow: none;
+}
+.bcGDPR .bcpObjectiveTemplate .bcpOkButton:disabled{
+  background-color: #717D84;
+  border-bottom-color: #373d40;
+  opacity: 0.2;
+}
+
+.bcGDPR .bcpObjectiveTemplate .bcpLink {
+  display: inline-block;
+  padding: 13px 15px;
+  border-radius: 25px/25px;
+  font-size: 16px;
+  color: #092968;
+  font-weight: normal;
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.fancybox-close {
+  top: -18px!important;
+  right: -18px!important;
+  width: 36px!important;
+  height: 36px!important;
+}
+
+.bcpGDPRListClose {
+  display: none;
+}
+
+
+
+  .bcGDPR .bcpObjectiveTemplate .bcpObjective {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .bcGDPR .bcpObjectiveTemplate label {
+    font-size: 18px!important;
+  }
+
+  .bcpGDPRList.close {
+    display: none;
+  }
+
+  .bcpGDPRListClose {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #BBC1C5;
+    position: absolute;
+    z-index: 1;
+    right: 15px;
+    top: 15px;
+    transform: rotate(-90deg);
+    cursor: pointer;
+  }
+  .bcpGDPRList.close + .bcpGDPRListClose { transform: rotate(90deg); }
+  .bcpGDPRListClose:hover { color: #092968; }
+
+  .bcpGDPRListClose:before {
+     content: '›';
+     color: inherit;
+     display: inline-block;
+     width: 20px;
+     height: 20px;
+     line-height: 15px;
+     font-size: 40px;
+     text-align: center;
+   }
+
+.bcpObjectives {
+    display:none;
+}
+
+/* styles from screens lower than 480px */
+@media screen and (max-width: 480px) {
+
+  .bcpGDPRLightbox .bcpGDPRHeader {
+    padding: 15px 15px 0 15px;
+  }
+
+  .bcpGDPRLightbox .bcpGDPRContent {
+    padding: 15px;
+  }
+  .bcpNotificationBarContent {
+    padding: 7px 15px;
+    top: 40px;
+  }
+
+}
+@media screen and (max-width: 425px) {
+
+  .bcpGDPRLightbox .bcpGDPRHeader {
+    padding: 15px 15px 0 15px;
+  }
+
+  .bcpGDPRLightbox .bcpGDPRContent {
+    padding: 15px;
+  }
+  .bcpNotificationBarContent {
+    padding: 7px 10px;
+    top: 30px;
+  }
+
+.bcpGDPRLightbox .bcpGDPRContent .bcpGDPRDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    }
+    
+    .bcpGDPRLightbox .bcpGDPRContent .bcpGDPRTitle {
+        font-size: 20px;
+    }
+}</style><style>.bcpNotificationBarClose { display: none; }</style><style>.bcGDPR {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.bcGDPR:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.bcGDPR .bcAfterSubmitTextWrapper {
+    padding: 20px;
+}
+
+.bcpObjectiveTemplate {
+    padding: 10px 20px 20px;
+    width: auto;
+    height: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.bcpObjectiveButtonsTemplate {
+    padding: 0 15px 20px;
+}
+
+.bcpObjectiveTemplate .bcpObjectives {
+    padding: 0px;
+    margin: 0px 0px 8px;
+    list-style-type: none;
+}
+.bcpObjectiveTemplate ul li {
+    margin: 0;
+}
+
+.bcpObjectiveTemplate .bcpObjective {
+      min-height: 30px;
+      line-height: 20px;
+      padding: 5px 0px;
+}
+.bcpObjectiveTemplate .bcpObjective:hover {
+    background-color: #F7F7F7;
+}
+
+.bcpObjectiveTemplate .bcpObjective input[type=checkbox] {
+    margin: 4px 3px;
+}
+.bcpObjectiveTemplate .bcpObjective input[type=checkbox],
+.bcpObjectiveTemplate .bcpObjective label {
+    line-height: 20px;
+    width: 20px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+}
+.bcpObjectiveTemplate .bcpObjective label {
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #222;
+    width: calc(100% - 60px);
+}
+.bcpObjectiveTemplate .bcpObjective label.bcpDescription  {
+    color: #999;
+    margin-left: 30px;
+    white-space: pre-wrap;
+}
+.bcpObjectiveTemplate .bcpObjective .bcpObjectiveCheckbox {
+    width: 16px;
+    height: 16px;
+    margin: 6px 0px;
+}
+.bcGDPR .bcAfterSubmitTextWrapper .bcClose .bcCloseButton,
+.bcpObjectiveTemplate .bcpConsentButton,
+.bcpObjectiveTemplate .bcpOkButton{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 0 0 rgba(0, 0, 0, 0.5);
+    min-height: 30px;
+    min-width: 70px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.bcGDPR .bcAfterSubmitTextWrapper .bcClose .bcCloseButton:hover,
+.bcpObjectiveTemplate .bcpConsentButton:hover {
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #DDD;
+}
+.bcpObjectiveTemplate .bcpOkButton:hover,
+.bcpObjectiveTemplate .bcpConsentOKButton:hover {
+    box-shadow: inset 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+    background-color: #18CF7D;
+}
+
+.bcGDPR .bcpObjectiveTemplate .bcpOkButton,
+.bcpObjectiveTemplate .bcpOkButton,
+.bcpObjectiveTemplate .bcpConsentOKButton {
+    background-color: #14B16B;
+    color: #fff;
+}
+
+.bcGDPR .bcAfterSubmitTextWrapper .bcClose .bcCloseButton,
+.bcpObjectiveTemplate .bcpConsentCancelButton {
+    background-color: #eeeeee;
+    color: #555555;
+}
+
+/* styles from screens lower 768px; */
+@media screen and (max-width: 768px) {
+    .bcpObjectiveTemplate .bcpObjective label {
+      padding-left: 5px;
+    }
+}
+
+/* styles from screens lower than 480px */
+@media screen and (max-width: 480px) {
+    .bcpObjectiveTemplate {
+      font-family: Arial;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 0 10px 10px;
+    }
+    .bcpObjectiveTemplate .bcpObjective {
+      color: #666666;
+      min-height: 30px;
+      padding: 0px 0px 10px;
+    }
+
+    .bcpObjectiveTemplate .bcpObjective .bcpObjectiveCheckbox {
+      width: 32px;
+      height: 32px;
+    }
+
+    .bcpObjectiveTemplate .bcpObjective label {
+      width: calc(100% - 50px);
+      padding-left: 15px;
+    }
+
+    .bcGDPR .bcAfterSubmitTextWrapper .bcClose .bcCloseButton,
+    .bcpObjectiveTemplate .bcpConsentButton {
+        margin: 5px;
+    }
+
+    .bcGDPR .bcAfterSubmitTextWrapper .bcClose .bcCloseButton,
+    .bcpObjectiveTemplate .bcpConsentButton,
+    .bcpObjectiveTemplate .bcpOkButton{
+      border-radius: 8px;
+
+      font-size: 20px;
+      min-height: 45px;
+
+      text-align: center;
+      padding: 5px 10px;
+      width: 100%
+    }
+}</style></head>
+
+<body class="has--disabled-intro-sequence" data-theme="LightGreen" style="transition: none;margin-bottom: 663px !important;">
     <script type="text/javascript" src="/assets/js/intro-sequence-disabler.js?v=8dDQAoi4RiQbjleOKtJdRIvUzRJcFrREnFdSkdUiBrY"></script>
 
     <!-- Start BlueConic Code -->
@@ -208,7 +665,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     
 
-<header class="header-container" js-hook-header="" role="banner" data-search-action="/zoekresultaten/" style="background-color: rgb(205, 231, 220);">
+<header class="header-container" js-hook-header="" role="banner" data-search-action="/zoekresultaten/" style="background-color: rgb(205, 231, 220); display: flex;">
 
     <div class="header-left-part">
         <a href="/" rel="home">
@@ -741,7 +1198,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <div class="header-menu-backdrop"></div>
 
-<div class="header-container-mobile" style="background-color: rgb(205, 231, 220); display: flex;">
+<div class="header-container-mobile" style="background-color: rgb(205, 231, 220);">
     <div class="header-left-part-mobile">
         <a id="logo-mobile" href="/" rel="home">
             <img src="/assets/svg/logo.svg" alt="Jazeker. De Hypotheker" width="175" height="30">
@@ -1250,7 +1707,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <h2>Hypotheekrente vergelijken? Bekijk het actuele hypotheekrente-overzicht</h2>
                     <p></p>
                     <p>
-                        Rentetarieven laatst bijgewerkt op <span>12-11-2023</span>
+                        Rentetarieven laatst bijgewerkt op <span>13-11-2023</span>
                     </p>
                 </div>
             </div>
@@ -1331,6 +1788,78 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- ngIf: mortgageProducts.length > 0 --><tbody class="c-hypotheekaanbieders__list ng-scope" ng-if="mortgageProducts.length > 0" style="">
       <!-- ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg" alt="Bunq Easy Mortgage Annuiteïtenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            Bunq Easy Mortgage
+            </h4>
+            <span class="ng-binding">
+              Bunq Easy Mortgage Annuiteïtenhypotheek
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,22%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=BQ-A-BQ001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png" alt="Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            Tulp Riant Hypotheek
+            </h4>
+            <span class="ng-binding">
+              Annuïteit
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,22%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=TH-A-TH005-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-LloydsBank.png" alt="Lloyds Bank Annuïteiten Hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-LloydsBank.png">
         </td>
         <td>
@@ -1354,6 +1883,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 
 
   <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=LL-A-LL001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-monEyou.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-monEyou.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            MoneYou
+            </h4>
+            <span class="ng-binding">
+              Annuiteit
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,28%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=MY-A-MY001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
 
     
       <span class="c-button__label">Bereken je maandlasten</span>
@@ -1547,14 +2112,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg" alt="Bunq Easy Mortgage Annuiteïtenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Bunq.svg">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png">
         </td>
         <td>
           <h4 class="ng-binding">
-            Bunq Easy Mortgage
+            Florius Profijt Drie+Drie
             </h4>
             <span class="ng-binding">
-              Bunq Easy Mortgage Annuiteïtenhypotheek
+              Annuiteit
               </span>
             </td>
             <td class="u-text--centered">
@@ -1569,7 +2134,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                 
 
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=BQ-A-BQ001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=FH-A-FH007-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
 
     
       <span class="c-button__label">Bereken je maandlasten</span>
@@ -1691,42 +2256,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png" alt="Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            Tulp Riant Hypotheek
-            </h4>
-            <span class="ng-binding">
-              Annuïteit
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,33%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=TH-A-TH005-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-BLGWonen.png" alt="BLG Annuïteitenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-BLGWonen.png">
         </td>
         <td>
@@ -1799,6 +2328,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png" alt="ABN AMRO Annuïteiten hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            ABN AMRO Budget Hypotheek
+            </h4>
+            <span class="ng-binding">
+              ABN AMRO Annuïteiten hypotheek
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,35%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=AA-A-AA010-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Hypotrust.png" alt="Hypotrust Woon Bewust Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Hypotrust.png">
         </td>
         <td>
@@ -1858,78 +2423,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 
 
   <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=IN-A-IN001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-monEyou.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-monEyou.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            MoneYou
-            </h4>
-            <span class="ng-binding">
-              Annuiteit
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,38%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=MY-A-MY001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            Florius Profijt Drie+Drie
-            </h4>
-            <span class="ng-binding">
-              Annuiteit
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,39%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=FH-A-FH007-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
 
     
       <span class="c-button__label">Bereken je maandlasten</span>
@@ -2051,42 +2544,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png" alt="ABN AMRO Annuïteiten hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            ABN AMRO Budget Hypotheek
-            </h4>
-            <span class="ng-binding">
-              ABN AMRO Annuïteiten hypotheek
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,44%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=AA-A-AA010-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Woonfonds.png" alt="Woongenot Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Woonfonds.png">
         </td>
         <td>
@@ -2123,6 +2580,78 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png" alt="Rabobank Annuïteitenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            Rabo BasisHypotheek
+            </h4>
+            <span class="ng-binding">
+              Rabobank Annuïteitenhypotheek
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,46%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=RB-A-RB002-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            Florius Profijt Twaalf
+            </h4>
+            <span class="ng-binding">
+              Annuiteit
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,47%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=FH-A-FH009-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Attens.png" alt="Attens Hypotheken Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Attens.png">
         </td>
         <td>
@@ -2146,6 +2675,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 
 
   <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=AQ-A-AQ001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png" alt="ABN AMRO Annuïteiten hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            ABN AMRO Woninghypotheek
+            </h4>
+            <span class="ng-binding">
+              ABN AMRO Annuïteiten hypotheek
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,50%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=AA-A-AA001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
 
     
       <span class="c-button__label">Bereken je maandlasten</span>
@@ -2231,42 +2796,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png" alt="Annuiteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Florius.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            Florius Profijt Twaalf
-            </h4>
-            <span class="ng-binding">
-              Annuiteit
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,54%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=FH-A-FH009-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Vista.png" alt="Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Vista.png">
         </td>
         <td>
@@ -2290,42 +2819,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 
 
   <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=VA-A-VA001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png" alt="ABN AMRO Annuïteiten hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-ABNAMRO.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            ABN AMRO Woninghypotheek
-            </h4>
-            <span class="ng-binding">
-              ABN AMRO Annuïteiten hypotheek
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,59%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=AA-A-AA001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
 
     
       <span class="c-button__label">Bereken je maandlasten</span>
@@ -2447,42 +2940,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png" alt="Rabobank Annuïteitenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            Rabo BasisHypotheek
-            </h4>
-            <span class="ng-binding">
-              Rabobank Annuïteitenhypotheek
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,61%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=RB-A-RB002-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Lot.png" alt="Lot annuïteiten hypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Lot.png">
         </td>
         <td>
@@ -2555,6 +3012,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
+          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png" alt="Rabobank Annuïteitenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png">
+        </td>
+        <td>
+          <h4 class="ng-binding">
+            Rabobank Hypotheek
+            </h4>
+            <span class="ng-binding">
+              Rabobank Annuïteitenhypotheek
+              </span>
+            </td>
+            <td class="u-text--centered">
+              <span class="u-visible-xs-inline-block">Rente</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">4,63%</span>
+            </td>
+              <td>
+                
+
+  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+                
+
+  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=RB-A-RB001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
+
+    
+      <span class="c-button__label">Bereken je maandlasten</span>
+    
+
+    
+
+  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
+
+
+              </td>
+            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
+        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Allianz.png" alt="Annuïtair" src="/assets/images/logos_hypotheekaanbieders/Logo-Allianz.png">
         </td>
         <td>
@@ -2591,42 +3084,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               </td>
             </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
         <td class="u-text--centered">
-          <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png" alt="Rabobank Annuïteitenhypotheek" src="/assets/images/logos_hypotheekaanbieders/Logo-Rabobank.png">
-        </td>
-        <td>
-          <h4 class="ng-binding">
-            Rabobank Hypotheek
-            </h4>
-            <span class="ng-binding">
-              Rabobank Annuïteitenhypotheek
-              </span>
-            </td>
-            <td class="u-text--centered">
-              <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">4,78%</span>
-            </td>
-              <td>
-                
-
-  <!-- ngIf: CTAAction !== 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-                
-
-  <!-- ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') --><a class="c-button ng-scope" href="/zelf-berekenen/wat-worden-mijn-maandlasten/calculator/?productid=RB-A-RB001-0-10&amp;isnewbuilding=false" title="Bereken je maandlasten" ng-if="CTAAction === 'afspraak' &amp;&amp; (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek')" ng-click="selectProduct(product)">
-
-    
-      <span class="c-button__label">Bereken je maandlasten</span>
-    
-
-    
-
-  </a><!-- end ngIf: CTAAction === 'afspraak' && (product.hypotheekVorm === 'Annuiteitenhypotheek' || product.hypotheekVorm === 'Lineaire_hypotheek') -->
-
-
-              </td>
-            </tr><!-- end ngRepeat: product in mortgageProducts --><tr class="c-hypotheekaanbieders__item ng-scope" ng-repeat="product in mortgageProducts">
-        <td class="u-text--centered">
           <img class="c-hypotheekaanbieders__logo" ng-src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png" alt="Annuïteit" src="/assets/images/logos_hypotheekaanbieders/Logo-Tulp.png">
         </td>
         <td>
@@ -2639,7 +3096,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </td>
             <td class="u-text--centered">
               <span class="u-visible-xs-inline-block">Rente</span>
-              <span class="c-hypotheekaanbieders__rente ng-binding">5,09%</span>
+              <span class="c-hypotheekaanbieders__rente ng-binding">5,04%</span>
             </td>
               <td>
                 
@@ -3139,7 +3596,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </p>
                         <p class="c-review__sub">
                             op basis van
-                            <span>30.247</span> beoordelingen
+                            <span>30.248</span> beoordelingen
                         </p>
 
                         <a href="/beoordelingen-de-hypotheker/" rel="noopener" target="_blank" class="c-klantenvertellen">
@@ -3493,14 +3950,22 @@ Dept.stamp("userJourney Config - userJourney module not present");</script><scri
 <script>(function(){var b={"@context":"http://schema.org","@type":"WebSite",url:"https://www.hypotheker.nl/",name:"De Hypotheker",potentialAction:{"@type":"SearchAction",target:"https://www.hypotheker.nl/zoekresultaten//?q\x3d{search_term_string}","query-input":"required name\x3dsearch_term_string"}},a=document.createElement("script");a.type="application/ld+json";a.innerHTML=JSON.stringify(b);document.getElementsByTagName("head")[0].appendChild(a)})(document);</script> </div><div style="display: none; visibility: hidden;"><script>(function(){if(document.querySelector(".c-faq__item"))for(var b=document.querySelectorAll(".c-faq__item"),c=[],a=0;a<b.length;a++){var d=b[a].querySelector(".c-faq__question").innerText;""!=d&&(c[a]={"@type":"Question",name:b[a].querySelector(".c-faq__question").innerText,acceptedAnswer:{"@type":"Answer",text:b[a].querySelector(".c-faq__answer").innerText}})}else if(document.querySelector(".faq-landing-accordion"))for(b=document.querySelectorAll(".faq-landing-accordion-item"),c=[],a=0;a<b.length;a++)d=
 b[a].querySelector(".faq-landing-accordion_heading").innerText,""!=d&&(c[a]={"@type":"Question",name:b[a].querySelector(".faq-landing-accordion_heading").innerText,acceptedAnswer:{"@type":"Answer",text:b[a].querySelector(".faq-landing-accordion_answer").innerText}});b={"@context":"https://schema.org","@type":"FAQPage",mainEntity:c};c=document.createElement("script");c.type="application/ld+json";c.innerHTML=JSON.stringify(b);document.getElementsByTagName("head")[0].appendChild(c)})(document);</script></div><script type="text/javascript" id="">ga(function(){var a=ga.getAll();dataLayer.push({event:"clientIdPush",clientId:a[0].get("clientId")})});</script><script type="text/javascript" id="">"undefined"!==typeof Storage&&"undefined"!==typeof sessionStorage&&"undefined"!==typeof localStorage&&(isFirstVisit()?setNumVisits():isFirstPage()&&incrementNumVisits(),isFirstPage()?(setSessionStart(),setNumPages(),setSessionId()):incrementNumPages(),dataLayer.push({event:"localStorageDone"}));function isFirstVisit(){return localStorage.getItem("numVisits")?!1:!0}function isFirstPage(){return sessionStorage.getItem("numPages")?!1:!0}function setNumVisits(){localStorage.setItem("numVisits",1)}
 function setNumPages(){sessionStorage.setItem("numPages",1)}function setSessionStart(){var a=new Date;sessionStorage.setItem("sessionStart",a)}function setSessionId(){sessionStorage.setItem("sessionId",generateGUID())}function incrementNumVisits(){localStorage.setItem("numVisits",Number(localStorage.getItem("numVisits"))+1)}function incrementNumPages(){sessionStorage.setItem("numPages",Number(sessionStorage.getItem("numPages"))+1)}
-function generateGUID(){return Math.floor(281474976710656*(1+Math.random()))};</script><script type="text/javascript" id="">sessionStorage.setItem("internalTraffic",google_tag_manager["rm"]["320617"](90));localStorage.setItem("internalTraffic",google_tag_manager["rm"]["320617"](91));</script><div style="display: none;"><div>
+function generateGUID(){return Math.floor(281474976710656*(1+Math.random()))};</script><script type="text/javascript" id="">sessionStorage.setItem("internalTraffic",google_tag_manager["rm"]["320617"](90));localStorage.setItem("internalTraffic",google_tag_manager["rm"]["320617"](91));</script><div class="bcpNotificationBar bcpNotificationBarStickyBottom" style="visibility: visible;"><div class="bcpNotificationBarContent" style="min-height: 32px;">
  
  
   <div class="bcpGDPRLightbox">
    <div class="bcpGDPRContent">
     <h2 class="bcpGDPRTitle">Mogen wij cookies gebruiken?</h2>
-    <p class="bcpGDPRDescription">Fijn dat je onze website bezoekt. We zouden graag cookies plaatsen waarmee we onze website en advertenties persoonlijker en relevanter maken. Vind je dat goed? Je leest er alles over in onze <a href="https://hyp01.hypotheker.nl/s/7Wl?profileid=b263894a-27bf-4c30-a7cf-e35ba96ffdcc">privacy</a>- en <a href="https://hyp01.hypotheker.nl/s/7Wm?profileid=b263894a-27bf-4c30-a7cf-e35ba96ffdcc">cookieregelement</a>.</p>
-    <div class="bccomplexobject"><div class="bcGDPR"></div></div>
+    <p class="bcpGDPRDescription">Fijn dat je onze website bezoekt. We zouden graag cookies plaatsen waarmee we onze website en advertenties persoonlijker en relevanter maken. Vind je dat goed? Je leest er alles over in onze <a href="https://hyp01.hypotheker.nl/s/7Wl?profileid=287b4283-8b31-4148-8cf3-771d0c43162b">privacy</a>- en <a href="https://hyp01.hypotheker.nl/s/7Wm?profileid=287b4283-8b31-4148-8cf3-771d0c43162b">cookieregelement</a>.</p>
+    <div class="bccomplexobject"><div class="bcGDPR"><div class="bcpObjectiveTemplate">                                
+    <ul class="bcpObjectives">                                        
+        <li class="bcpObjective">
+            <input class="bcObjective bcObjectiveRadio" type="radio" name="bcObjective" value="objective_-_persoonlijk_remarketing" id="objective_-_persoonlijk_remarketing">
+            <label for="objective_-_persoonlijk_remarketing">Complete ervaring</label>
+        </li>                      
+    </ul>
+    <button class="bcGiveConsent bcpOkButton">Jazeker</button>    
+</div></div></div>
     <ul class="bcpGDPRList close" data-moveid="1">
      <li>Websiteanalyse &amp; websiteprestatie mbv analytische cookies &amp; performance cookies</li>
      <li>Optimale gebruikerservaring mbv functionele cookies</li>
@@ -3511,4 +3976,62 @@ function generateGUID(){return Math.floor(281474976710656*(1+Math.random()))};</
    </div>
   </div>
  
-</div></div></body></html>
+</div><div class="bcpNotificationBarClose bcpNotificationBarCloseIcon bcpNotificationBarCloseTopRight" style="margin: 10px;"></div></div><script>$(document).ready(function() {
+  var waitForBC = setInterval(function() {
+    var element = document.getElementsByTagName('body')[0];
+
+    if(element !== undefined && element !== null) {
+    
+      var element = document.getElementsByTagName('body')[0];
+      element.style.marginBottom = 0;
+
+      document.querySelectorAll(".bcObjectiveRadio")[0].setAttribute("checked", "checked");
+
+      if ( !$('.bcGDPR .bcObjectiveRadio[type="radio"]').is(':checked') ) {
+        document.querySelectorAll(".bcGDPR .bcpOkButton")[0].setAttribute("disabled", "disabled");
+      }
+      $('.bcGDPR .bcObjectiveRadio[type="radio"]').click(function(){
+        if ($(this).is(':checked')) {
+          document.querySelectorAll(".bcGDPR .bcpOkButton")[0].removeAttribute("disabled");
+        }
+      });
+
+      function toggleList(e) {
+
+        var thisDataId = this.getAttribute('data-id');
+        var targetList = document.querySelectorAll('[data-moveid="'+ thisDataId +'"]')[0];
+        targetList.classList.toggle('close');
+        e.preventDefault();
+
+      }
+
+      var target = document.querySelectorAll('.bcpObjective label');
+      for(var i = 0; i < target.length; i++) {
+        var text = document.querySelectorAll('[data-moveid="'+ (i+1) +'"]')[0],
+            targetContainer = target[i];
+        targetContainer.appendChild(text);
+
+        var listClose = document.createElement('span');
+            listClose.classList.add("bcpGDPRListClose");
+            var datasetId = (i+1);
+            listClose.setAttribute("data-id", datasetId);
+            // listClose.dataset.id = datasetId;
+            listClose.addEventListener("click", toggleList)
+            targetContainer.appendChild(listClose);
+      }
+
+      var bcpObjectiveTemplate = document.querySelectorAll(".bcpObjectiveTemplate")[0];
+      var privacylink = document.createElement('a');
+      var privacylinkText = document.createTextNode("Instellingen aanpassen");
+      privacylink.appendChild(privacylinkText);
+      // privacylink.title = privacylinkText;
+      var currentUrl = (window.location !== undefined && window.location !== null ? window.location.href : '');
+      privacylink.href = "https://www.hypotheker.nl/cookies?bc-origin=" + currentUrl ;
+      privacylink.classList.add('bcpLink');
+    //   privacylink.setAttribute('target', '_blank');
+      bcpObjectiveTemplate.appendChild(privacylink);
+
+      clearInterval(waitForBC);
+    }
+  }, 100);
+});</script></body></html>
