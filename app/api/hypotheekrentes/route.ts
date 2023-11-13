@@ -1,31 +1,33 @@
 "use server";
 
 import { writeFileSync } from "fs";
+import { NextResponse } from 'next/server';
 
+// npm imports
 const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 import { Browser } from 'puppeteer'
 
 puppeteer.use(StealthPlugin())
 
-const url = 'https://www.hypotheker.nl/rentestanden/'
 
-export async function GET(request: Request) {
-    const returnData = getData()
-
-    // const data = getData()
-    return new Response('succesvol serverside test');
+// response functions
+type ResponseData = {
+    message: string
 }
 
-export async function POST(req: Request) {
-    const body = await req.json()
-    console.log(body)
+export async function GET(req: Request){
+    getRentestanden()
+//    const response = getRentestanden()
+//    console.log("SERVER SIDE LOG", response)
 
-    return new Response('OK')
+    const response = "GET RETURN /API/HYPOTHEEKRENTES"
+   return NextResponse.json({"response": response})
 }
 
-async function getData(){
-    const browser: Browser = await puppeteer.launch({ headless: true })
+async function getRentestanden(){
+    const url = 'https://www.hypotheker.nl/rentestanden/'
+    const browser: Browser = await puppeteer.launch({ headless: "new" })
     const page = await browser.newPage()
     await page.goto(url)
 
@@ -45,7 +47,8 @@ async function getData(){
     // loop through html object and save correct values in new array
     renteArray.forEach( async (rente) => {
         const renteWaarde = await (await rente.getProperty('textContent')).jsonValue()
-        console.log("server side renteWaarde:", renteWaarde)
+
+        console.log(renteWaarde)
         renteTextValues.push(renteWaarde)
     })
 
@@ -53,5 +56,6 @@ async function getData(){
     await page.screenshot({ path: 'hypotheekrentes.jpg' })
     await browser.close()
 
-    return renteTextValues
+    // return renteTextValues
+    return 'return getRenteStanden functie'
 }

@@ -1,8 +1,13 @@
 import React from 'react'
 
+import AnimationTest from '@/components/AnimationTest';
+
 const page = () => {
   return (
-    <div>Huren</div>
+    <div>
+      test1
+      <AnimationTest />
+    </div>
   )
 }
 
