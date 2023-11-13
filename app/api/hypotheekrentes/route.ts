@@ -10,24 +10,23 @@ import { Browser } from 'puppeteer'
 
 puppeteer.use(StealthPlugin())
 
-
-// response functions
-type ResponseData = {
-    message: string
-}
-
 export async function GET(req: Request){
-    getRentestanden()
+    const responseFunctie = getRentestanden()
+    console.log("server side", responseFunctie)
+
 //    const response = getRentestanden()
 //    console.log("SERVER SIDE LOG", response)
 
     const response = "GET RETURN /API/HYPOTHEEKRENTES"
-   return NextResponse.json({"response": response})
+   return NextResponse.json({"response": responseFunctie})
 }
 
 async function getRentestanden(){
     const url = 'https://www.hypotheker.nl/rentestanden/'
-    const browser: Browser = await puppeteer.launch({ headless: "new" })
+    const browser: Browser = await puppeteer.launch({ 
+        headless:false,
+        args: ['--no-sandbox', '--disable-setuid-sandbox']
+    })
     const page = await browser.newPage()
     await page.goto(url)
 
@@ -48,14 +47,17 @@ async function getRentestanden(){
     renteArray.forEach( async (rente) => {
         const renteWaarde = await (await rente.getProperty('textContent')).jsonValue()
 
-        console.log(renteWaarde)
+        console.log("SERVERSIDE -> rentewaarde:", renteWaarde)
+
         renteTextValues.push(renteWaarde)
     })
+
+    console.log(renteTextValues)
 
     // close browser and return correct values
     await page.screenshot({ path: 'hypotheekrentes.jpg' })
     await browser.close()
 
     // return renteTextValues
-    return 'return getRenteStanden functie'
+    return renteTextValues
 }
